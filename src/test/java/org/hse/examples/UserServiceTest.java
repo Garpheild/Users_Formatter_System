@@ -9,6 +9,11 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.*;
 
+/**
+ * Тесты для {@link UserService}.
+ * Проверяют основную логику обработки пользователей:
+ * валидацию, сортировку и форматирование.
+ */
 @DisplayName("Тесты для UserService")
 class UserServiceTest {
 
